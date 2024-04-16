@@ -40,11 +40,11 @@ bot = Client(
 
 bot_token=Config.BOT_TOKEN
 bot1 = telegram.Bot(token=bot_token)
-channel = f'@HxBots'
-owner = f'@Kirodewal'
-pdf = f'@TxT_DLBot.pdf'
-video = f'@TxT_DLBot.mp4'
-mkv = f'@TxT_DLBot.mkv'
+channel = f'@IAMTGTUSHAR_BOT'
+owner = f'@IAMTGTUSHAR_BOT'
+pdf = f'.@IAMTGTUSHAR_BOTpdf'
+video = f'@IAMTGTUSHAR_BOT.mp4'
+mkv = f'@IAMTGTUSHAR_BOT.mkv'
 
 @bot.on_message(filters.command(["help"]))
 async def help_handler(bot: Client, m: Message):
@@ -65,7 +65,7 @@ async def restart_handler(_, m):
 
 @bot.on_message(filters.command(["start"]))
 async def account_login(bot: Client, m: Message):
-    editable = await m.reply_text("**Hi!, I'm PyroBot. I Can Download All Links In A Txt File & Send Them To You.\n\nUse /help To Get Some Help 😉\n\n Use /up_vid Command to Upload Videos in Streamable Formate & /up_dov to Upload In Document Formate!!!**")
+    editable = await m.reply_text("**Hi!, I'm IAMTGTUSHAR_BOT. I Can Download All Links In A Txt File & Send Them To You.\n\nUse /help To Get Some Help 😉\n\n Use /up_vid Command to Upload Videos in Streamable Formate & /up_dov to Upload In Document Formate!!!**")
 
 
 @bot.on_message(filters.command(["up_vid"]))
